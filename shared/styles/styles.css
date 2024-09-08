@@ -833,7 +833,7 @@ a.doclink::before {
   width: 100%;
   height: 100%;
   opacity: 0.4;
-  background-color: #ff003a;
+  background-color: var(--main-color);
   border-radius: 24px;
   transition-duration: 100ms;
 }
@@ -915,6 +915,13 @@ a.doclink .doclink-icon {
 }
 .doclink.zipfile::before {
   background-color: #242526;
+}
+
+.doclink.pdffile .doclink-icon {
+  background-image: url("../images/icons/pdf-icon.webp");
+}
+.doclink.pdffile::before {
+  background-color: var(--main-color);
 }
 
 .doclink.bootstrap .doclink-icon {

@@ -13,13 +13,8 @@
 
 
 <grostitre>Trousses</grostitre>
-<intlink href="./index/"></intlink>
-<intlink href="./582-111MO/"></intlink>
-<intlink href="./582-211MO/"></intlink>
-<intlink href="./582-215MO/"></intlink>
-<intlink href="./582-424MO/"></intlink>
-<intlink href="./582-434MO/"></intlink>
-<intlink href="./582-518MO/"></intlink>
+
+<doclink href="shared/files/guide-des-sections-2022.pdf">Guide de référence à l’usage des sections locales</doclink>
 
 <dots></dots>
 

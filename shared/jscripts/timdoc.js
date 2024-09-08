@@ -896,6 +896,7 @@ app.component('doclink', {
             if(this.domains[url.hostname] !== undefined) site = this.domains[url.hostname];
         } catch (e) {
             if (this.href.split('.').pop().toLocaleLowerCase() == 'zip') site = 'zipfile';
+            else if (this.href.split('.').pop().toLocaleLowerCase() == 'pdf') site = 'pdffile';
         }
         if (this.spacer == 'true') site += ' spacer';
         return { class: site }
