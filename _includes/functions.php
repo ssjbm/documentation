@@ -77,7 +77,7 @@ function print_breadcrumb_index() {
 function getRootCours() {
     global $PAGE;
     $path = getRelativePath($PAGE->file, $PAGE->root);
-    $path = join('/', array_slice(explode('/', $path), 1));
+    // $path = join('/', array_slice(explode('/', $path), 1));
     if(!$path) $path = './';
     return $path;
 }
@@ -160,7 +160,7 @@ function intlink($path=null){
             <div class="intlink__item">
                 <div class="intlink__item__icon" style="background-image: url('<?php echo $path . '/' . $info->icon; ?>');"></div>
                 <div class="intlink__item__description">
-                    <span class="intlink__item__title"><a target="_blank" href="<?php echo  !empty($info->url) ? $info->url : $path; ?>/<?php echo (!empty($anchor) ? '#'.$anchor : ''); ?>"><?php echo $info->title; ?></a></span>
+                    <span class="intlink__item__title"><a href="<?php echo  !empty($info->url) ? $info->url : $path; ?>/<?php echo (!empty($anchor) ? '#'.$anchor : ''); ?>"><?php echo $info->title; ?></a></span>
                     <span class="intlink__item__abstract"><?php echo $info->abstract; ?></span>
                 </div>
             </div>

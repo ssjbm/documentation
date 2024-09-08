@@ -14,6 +14,10 @@
 
 <grostitre>Trousses</grostitre>
 
+
+
+<intlink href="./guide-sections/"></intlink>
+
 <doclink href="shared/files/guide-des-sections-2022.pdf">Guide de référence à l’usage des sections locales</doclink>
 
 <dots></dots>

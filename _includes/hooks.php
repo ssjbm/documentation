@@ -66,7 +66,7 @@ register_tag('intlink', function($html, $attrs, $data) {
         <div class="intlink__item">
             <div class="intlink__item__icon" style="background-image: url({$thumb});"></div>
             <div class="intlink__item__description">
-                <span class="intlink__item__title"><a target="_blank" href="{$url}">{$info->title}</a></span>
+                <span class="intlink__item__title"><a href="{$url}">{$info->title}</a></span>
                 <span class="intlink__item__abstract">{$info->abstract}</span>
             </div>
         </div>

@@ -1,7 +1,7 @@
 {
     "data": {
-        "project": "TIM Montmorency - Documentation",
-        "gtag": "G-P2R7T89B4B"
+        "project": "SSJBM Documentation",
+        "gtag": ""
     },
     "includes": [
         "_includes/functions.php",
