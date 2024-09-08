@@ -46,7 +46,7 @@
         vertical-align: center;
         border-radius: 50%;
         display: inline;
-        background-color: #ffc5c5;
+        background-color: var(--main-color);
 
         flex-shrink: 0;
 
@@ -60,7 +60,7 @@
             cursor: pointer;
             transform: rotate(-180deg);
             transition-duration: 200ms;
-            background-color: #fa6b6b;
+            background-color: var(--main-color);
         }
 
         &.copied {

@@ -8,11 +8,11 @@ body.dark {
 
     a { color: white; }
     em { color: #e6af2e; }
-    hr { border: 1px dashed #74011b; }
+    hr { border: 1px dashed #030174; }
     span.inline-code { background-color: #1c1d21; color: white; }
     footer { /*background: linear-gradient(to top, #3a2d2d, 50%, #000000);*/ border-top: 1px solid rgb(19, 2, 4); }
     #subhead { background-color: rgba(255, 255, 255, 0.1); }
-    main::before { background: linear-gradient(to bottom, #3a2d2d, 20%, #000000); }
+    main::before { background: linear-gradient(to bottom, #2d2f3a, 20%, #000000); }
 
     #wiki__list { background-image: linear-gradient(to right, #111111, #000000); }
     
@@ -32,13 +32,13 @@ body.dark {
         &-strong { font-weight: 700; }
     }
 
-    .dots { color: #74011b; }
+    .dots { color: var(--main-color); }
     
 
     .grostitre {
         &__chain {
-            background-color: #ff003a;
-            &:hover { background-color: #004ca3; }
+            background-color: var(--main-color);
+            &:hover { background-color: var(--main-color); }
             &.copied { background-color: #34ad24; }
         }
     }

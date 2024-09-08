@@ -1,18 +1,18 @@
 <?php 
 /**
  * @type     article
- * @title    TIMdoc
+ * @title    Documentation
  * @icon     shared/images/icon.webp
  * @abstract Documentation Web
  */
 ?>
  
-<p class="spacer">TIMdoc est un système de documentation en ligne conçu spécifiquement pour la technique d'intégration multimédia du Collège Montmorency. Il permet de créer facilement et rapidement des exercices et notes de cours interactives grâce à une collection de composantes faites sur mesure et prêtes à être utiliser.</p>
+<p class="spacer">La Société Saint-Jean-Baptiste de Montréal (SSJBM) est une organisation québécoise fondée par le journaliste Ludger Duvernay le 8 mars 1834, sous le nom initial de l'Association « Aide-toi et le ciel t'aidera ».</p>
 
 <dots></dots>
 
 
-<grostitre>Cours</grostitre>
+<grostitre>Trousses</grostitre>
 <intlink href="./index/"></intlink>
 <intlink href="./582-111MO/"></intlink>
 <intlink href="./582-211MO/"></intlink>
@@ -24,40 +24,33 @@
 <dots></dots>
 
 
-<grostitre>Technologies</grostitre>
+<grostitre>Liens</grostitre>
 
 <ul>
-    <li>HTML5, SASS/SCSS, Javascript</li>
-    <li>PXPros <em>(pré-processeur PHP)</em></li>
-    <li>VueJS 3 <em>(composantes)</em></li>
-    <li>Highlight.js <em>(surbrillance du code)</em></li>
-    <li>Swiper.js <em>(album photo)</em></li>
-    <li>FFMPEG <em>(transcode média)</em></li>
-    <li>MediaInfoLib <em>(informations média)</em></li>
-    <li>AudioWaveForm <em>(ondes audio en image)</em></li>
-    <li>JQ <em>(JSON en ligne de commande)</em></li>
-    <li>GitHub Pages <em>(hébergement)</em></li>
+    <li><a target="blank" href="https://linktr.ee/ssjbm">Linktree</a></li>    
+    <li><a target="blank" href="https://ssjb.com/">Site internet</a></li>
+    <li><a target="blank" href="https://www.facebook.com/SSJBM">Facebook</a></li>
+    <li><a target="blank" href="https://www.instagram.com/ssjbm/">Instagram</a></li>
+    <li><a target="blank" href="https://x.com/SSJBM">X (Twitter)</a></li>
+    <li><a target="blank" href="https://www.tiktok.com/@ssjbm_officiel">TikTok</a></li>
+   
+
 </ul>
 
 <dots></dots>
+
 
 
 <grostitre>Contributeurs</grostitre>
 
 <ul>
-    <li>Simon Arnold <em>(inspiration)</em></li>
     <li>Maxime Larrivée-Roy <em>(développeur)</em></li>
-    <li>Marie-Michelle Ouellet <em>(développeuse)</em></li>
 </ul>
 
 <dots></dots>
 
 
-<grostitre>Comment ça marche?</grostitre>
 
-<intlink href="manuel/">Manuel d'utilisation</intlink>
-
-<dots></dots>
 
 
 

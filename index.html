@@ -31,16 +31,16 @@
         <script src="shared/jscripts/vue.global.prod.js"></script>
         <script src="shared/jscripts/timdoc.min.js"></script>
         <script>const shared = 'shared/';</script>
-        <title>TIMdoc</title>
+        <title>Documentation</title>
     </head>
     <body>
         <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
         <a id="top"></a>
         <header>
             <div id="logo" @click="goToTop('./', '')" title="Retour à l'accueil">
-                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                <!-- <svg class="logo-tim" viewBox="0 0 953.6 303.8">
                    <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
-                </svg>
+                </svg> -->
             </div>
             <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
         </header>
@@ -51,18 +51,18 @@
                     <div id="breadcrumb_normal"></div>
                     <div id="breadcrumb_index"></div>
                 </div>
-                <h1 id="title"><img src="shared/images/icon.webp">&nbsp;TIMdoc</h1>
+                <h1 id="title"><img src="shared/images/icon.webp">&nbsp;Documentation</h1>
             </div>
             <article>
                 <div id="contents">
                     <!-- ARTICLE HEADER EOF -->
  
-<p class="spacer">TIMdoc est un système de documentation en ligne conçu spécifiquement pour la technique d'intégration multimédia du Collège Montmorency. Il permet de créer facilement et rapidement des exercices et notes de cours interactives grâce à une collection de composantes faites sur mesure et prêtes à être utiliser.</p>
+<p class="spacer">La Société Saint-Jean-Baptiste de Montréal (SSJBM) est une organisation québécoise fondée par le journaliste Ludger Duvernay le 8 mars 1834, sous le nom initial de l'Association « Aide-toi et le ciel t'aidera ».</p>
 
 <dots></dots>
 
 
-<grostitre>Cours</grostitre>
+<grostitre>Trousses</grostitre>
 
 
 
@@ -74,40 +74,33 @@
 <dots></dots>
 
 
-<grostitre>Technologies</grostitre>
+<grostitre>Liens</grostitre>
 
 <ul>
-    <li>HTML5, SASS/SCSS, Javascript</li>
-    <li>PXPros <em>(pré-processeur PHP)</em></li>
-    <li>VueJS 3 <em>(composantes)</em></li>
-    <li>Highlight.js <em>(surbrillance du code)</em></li>
-    <li>Swiper.js <em>(album photo)</em></li>
-    <li>FFMPEG <em>(transcode média)</em></li>
-    <li>MediaInfoLib <em>(informations média)</em></li>
-    <li>AudioWaveForm <em>(ondes audio en image)</em></li>
-    <li>JQ <em>(JSON en ligne de commande)</em></li>
-    <li>GitHub Pages <em>(hébergement)</em></li>
+    <li><a target="blank" href="https://linktr.ee/ssjbm">Linktree</a></li>    
+    <li><a target="blank" href="https://ssjb.com/">Site internet</a></li>
+    <li><a target="blank" href="https://www.facebook.com/SSJBM">Facebook</a></li>
+    <li><a target="blank" href="https://www.instagram.com/ssjbm/">Instagram</a></li>
+    <li><a target="blank" href="https://x.com/SSJBM">X (Twitter)</a></li>
+    <li><a target="blank" href="https://www.tiktok.com/@ssjbm_officiel">TikTok</a></li>
+   
+
 </ul>
 
 <dots></dots>
+
 
 
 <grostitre>Contributeurs</grostitre>
 
 <ul>
-    <li>Simon Arnold <em>(inspiration)</em></li>
     <li>Maxime Larrivée-Roy <em>(développeur)</em></li>
-    <li>Marie-Michelle Ouellet <em>(développeuse)</em></li>
 </ul>
 
 <dots></dots>
 
 
-<grostitre>Comment ça marche?</grostitre>
 
-
-
-<dots></dots>
 
 
 
@@ -118,7 +111,7 @@
             </article>        <!-- MAIN FOOTER SOF -->
         </main>
         <footer>
-            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+            <div id="copyright">2024 Société Saint-Jean Baptiste de Montréal<br>Maison Ludger-Duvernay, 82, rue Sherbrooke Ouest, Montréal</div>
         </footer>
         <script>app.mount('body');</script>
     </body>

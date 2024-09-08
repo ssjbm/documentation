@@ -217,7 +217,7 @@ body.dark em {
   color: #e6af2e;
 }
 body.dark hr {
-  border: 1px dashed #74011b;
+  border: 1px dashed #030174;
 }
 body.dark span.inline-code {
   background-color: #1c1d21;
@@ -230,7 +230,7 @@ body.dark #subhead {
   background-color: rgba(255, 255, 255, 0.1);
 }
 body.dark main::before {
-  background: linear-gradient(to bottom, #3a2d2d, 20%, #000000);
+  background: linear-gradient(to bottom, #2d2f3a, 20%, #000000);
 }
 body.dark #wiki__list {
   background-image: linear-gradient(to right, #111111, #000000);
@@ -270,13 +270,13 @@ body.dark .hljs-strong {
   font-weight: 700;
 }
 body.dark .dots {
-  color: #74011b;
+  color: var(--main-color);
 }
 body.dark .grostitre__chain {
-  background-color: #ff003a;
+  background-color: var(--main-color);
 }
 body.dark .grostitre__chain:hover {
-  background-color: #004ca3;
+  background-color: var(--main-color);
 }
 body.dark .grostitre__chain.copied {
   background-color: #34ad24;
@@ -476,7 +476,7 @@ body.dark table tr:nth-child(even) td {
   vertical-align: center;
   border-radius: 50%;
   display: inline;
-  background-color: #ffc5c5;
+  background-color: var(--main-color);
   flex-shrink: 0;
 }
 @media (min-width: 576px) {
@@ -490,7 +490,7 @@ body.dark table tr:nth-child(even) td {
   cursor: pointer;
   transform: rotate(-180deg);
   transition-duration: 200ms;
-  background-color: #fa6b6b;
+  background-color: var(--main-color);
 }
 .grostitre__chain.copied {
   background-color: #83ff73;
@@ -2732,11 +2732,11 @@ body.dark .correction-modal textarea:invalid, body.dark .correction-modal input[
 :root {
   --lightmode-blue: #577590;
   --lightmode-yellow: #f3ca40;
-  --lightmode-red: #ff003a;
+  --lightmode-red: #4976bf;
   --lightmode-lightgray: #e1e4f2;
   --lightmode-orange: #f2a541;
   /* SVP conservez les 2 variables CSS suivantes (et non scss) car je les utilise en démo dans un des mes cours (Marie-Michelle) */
-  --main-color: #ff003a;
+  --main-color: #4976bf;
   --grostitre-size-desktop: 36px;
   --h1-size-desktop: 48px;
 }
@@ -2803,7 +2803,7 @@ hr {
 }
 
 .btn {
-  border: 2px solid #ff003a;
+  border: 2px solid var(--main-color);
   background-color: none;
   padding: 4px 35px 7px 35px;
   display: inline-block;
@@ -2822,28 +2822,34 @@ header #logo {
   position: relative;
   top: 60px;
   width: 216px;
-  fill: #ff003a;
+  height: 80px;
+  fill: var(--main-color);
   background-repeat: no-repeat;
   cursor: pointer;
+  background-size: contain;
+  background-image: url(../images/ssjb-logo-dark.webp);
 }
 header #lightswitch {
   background-color: #ffffff;
   background-size: 34px 34px;
   background-repeat: no-repeat;
-  position: relative;
   width: 34px;
   height: 34px;
-  left: 240px;
   border-radius: 50%;
   overflow: hidden;
   transition-property: transform;
   transition-duration: 100ms;
   cursor: pointer;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  left: auto;
+  z-index: 99999;
 }
 header #lightswitch::before {
   content: "";
   position: absolute;
-  background-image: linear-gradient(0deg, #ff003a, #ff003a);
+  background-image: linear-gradient(0deg, var(--main-color), var(--main-color));
   left: 0px;
   top: 0px;
   width: 34px;
