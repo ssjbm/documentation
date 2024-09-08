@@ -1,0 +1,125 @@
+<!-- 
+
+████████╗██╗███╗   ███╗██████╗  ██████╗  ██████╗
+╚══██╔══╝██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝
+   ██║   ██║██╔████╔██║██║  ██║██║   ██║██║
+   ██║   ██║██║╚██╔╝██║██║  ██║██║   ██║██║
+   ██║   ██║██║ ╚═╝ ██║██████╔╝╚██████╔╝╚██████╗
+   ╚═╝   ╚═╝╚═╝     ╚═╝╚═════╝  ╚═════╝  ╚═════╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2R7T89B4B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P2R7T89B4B');
+        </script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="shared/images/favicon.ico">
+        <link rel="stylesheet" href="shared/styles/styles.min.css">
+        <script src="shared/jscripts/highlight.min.js"></script>
+        <script src="shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="shared/jscripts/vue.global.prod.js"></script>
+        <script src="shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = 'shared/';</script>
+        <title>TIMdoc</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('./', '')" title="Retour à l'accueil">
+                <svg class="logo-tim" viewBox="0 0 953.6 303.8">
+                   <path d="m785.7 166.8 16.3 16.3 16.2-16.3L930.6 54.5v226.2h-257v-226l112 112.1zM650.6.8v303h303V.7h-1.8L802 150.4 652 .7h-1.5zM324.5.4v303h303V.5h-303zm130 129.9a33.5 33.5 0 0 0 34.7 55.3l94.8 94.8H347.5v-257h257v236.4l-94.8-94.7a33.5 33.5 0 0 0-55.3-34.8zM206.4 0 0 206.5V303h303V0h-96.5zM23 280v-64l85.6-85.6 119.9 119.8 20.5-20.5L129.1 110 216 23h64v257H23z"/>
+                </svg>
+            </div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb">
+                    <div id="breadcrumb_normal"></div>
+                    <div id="breadcrumb_index"></div>
+                </div>
+                <h1 id="title"><img src="shared/images/icon.webp">&nbsp;TIMdoc</h1>
+            </div>
+            <article>
+                <div id="contents">
+                    <!-- ARTICLE HEADER EOF -->
+ 
+<p class="spacer">TIMdoc est un système de documentation en ligne conçu spécifiquement pour la technique d'intégration multimédia du Collège Montmorency. Il permet de créer facilement et rapidement des exercices et notes de cours interactives grâce à une collection de composantes faites sur mesure et prêtes à être utiliser.</p>
+
+<dots></dots>
+
+
+<grostitre>Cours</grostitre>
+
+
+
+
+
+
+
+
+<dots></dots>
+
+
+<grostitre>Technologies</grostitre>
+
+<ul>
+    <li>HTML5, SASS/SCSS, Javascript</li>
+    <li>PXPros <em>(pré-processeur PHP)</em></li>
+    <li>VueJS 3 <em>(composantes)</em></li>
+    <li>Highlight.js <em>(surbrillance du code)</em></li>
+    <li>Swiper.js <em>(album photo)</em></li>
+    <li>FFMPEG <em>(transcode média)</em></li>
+    <li>MediaInfoLib <em>(informations média)</em></li>
+    <li>AudioWaveForm <em>(ondes audio en image)</em></li>
+    <li>JQ <em>(JSON en ligne de commande)</em></li>
+    <li>GitHub Pages <em>(hébergement)</em></li>
+</ul>
+
+<dots></dots>
+
+
+<grostitre>Contributeurs</grostitre>
+
+<ul>
+    <li>Simon Arnold <em>(inspiration)</em></li>
+    <li>Maxime Larrivée-Roy <em>(développeur)</em></li>
+    <li>Marie-Michelle Ouellet <em>(développeuse)</em></li>
+</ul>
+
+<dots></dots>
+
+
+<grostitre>Comment ça marche?</grostitre>
+
+
+
+<dots></dots>
+
+
+
+
+                    <!-- ARTICLE FOOTER SOF -->
+                </div>
+                <tabledesmatieres></tabledesmatieres>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Collège Montmorency<br>Techniques d'intégration multimédia</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>

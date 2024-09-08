@@ -1,0 +1,66 @@
+
+div.checklist {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -25px;
+    margin-right: -25px;
+
+
+    @media (max-width: 820px)  {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    ol {
+        margin-left: 25px;
+        margin-bottom: 25px;
+
+        li {
+            cursor: pointer;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            line-height: 28px;
+            text-decoration-color: var(--main-color);
+            text-decoration-thickness: 3px;
+            transition-duration: 200ms;
+            
+            &:hover {
+                background-color: #fde8ed;
+            }
+
+            &.checked {
+                opacity: 0.7;
+                text-decoration: line-through;
+                text-decoration-color: var(--main-color);
+                text-decoration-thickness: 3px;
+                transition-duration: 200ms;
+                &::marker { content: '\2713   ' }    
+            }
+            
+            a, em, span {
+                text-decoration-thickness: 3px;
+                text-decoration-color: var(--main-color);
+            }
+
+        }
+    }
+
+    &__pourcentage {
+        font-size: 10px;
+        width: 25px;
+    }
+
+    &__progressbar {
+        width: calc(100% - 25px);
+        height: 4px;
+        margin-top: 3px;
+        background-image: linear-gradient(0deg, var(--main-color), var(--main-color));
+        background-color: #fde8ed;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 0% 4px;
+        transition-duration: 250ms;
+    }
+
+}
