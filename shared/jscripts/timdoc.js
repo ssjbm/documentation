@@ -1759,3 +1759,13 @@ app.component('timg', {
     },
     template: `<img :src="this.source" :alt="this.alt" :class="this.class">`
 });
+
+
+
+/******************************************************
+ *                Composante Imglegend                *
+ ******************************************************/
+ app.component('imglegend', {
+    props: ['src'],
+    template: `<img :src="this.src" style="margin-bottom: 10px"><small style="opacity: 0.5;"><slot></small><br/><br/>`
+});

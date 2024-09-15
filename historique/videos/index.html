@@ -1,0 +1,101 @@
+<!-- 
+
+██████╗ ██╗ █████╗ ███╗   ███╗███████╗████████╗██████╗ ██╗ ██████╗██╗  ██╗
+██╔══██╗██║██╔══██╗████╗ ████║██╔════╝╚══██╔══╝██╔══██╗██║██╔════╝██║ ██╔╝
+██║  ██║██║███████║██╔████╔██║█████╗     ██║   ██████╔╝██║██║     █████╔╝ 
+██║  ██║██║██╔══██║██║╚██╔╝██║██╔══╝     ██║   ██╔══██╗██║██║     ██╔═██╗ 
+██████╔╝██║██║  ██║██║ ╚═╝ ██║███████╗   ██║   ██║  ██║██║╚██████╗██║  ██╗
+╚═════╝ ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝
+
+-->
+<!DOCTYPE html>
+<html lang="fr-ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow" />
+        <meta itemprop="digest" content="">
+        <link rel="icon" type="image/x-icon" href="../../shared/images/favicon.ico">
+        <link rel="stylesheet" href="../../shared/styles/styles.min.css">
+        <script src="../../shared/jscripts/highlight.min.js"></script>
+        <script src="../../shared/jscripts/swiper-bundle.min.js"></script>
+        <script src="../../shared/jscripts/vue.global.prod.js"></script>
+        <script src="../../shared/jscripts/timdoc.min.js"></script>
+        <script>const shared = '../../shared/';</script>
+        <title>Histoire de la SSJB en vidéo</title>
+    </head>
+    <body>
+        <script>document.body.classList.add(localStorage.getItem('darkmode') === 'true' ? 'dark' : 'light');</script>
+        <a id="top"></a>
+        <header>
+            <div id="logo" @click="goToTop('../../', '')" title="Retour à l'accueil"></div>
+            <div title="Interrupteur" id="lightswitch" ref="lightswitch" @click="lightswitch()"></div>
+        </header>
+        <main>
+            <!-- MAIN HEADER EOF -->
+            <div id="subhead">
+                <div id="breadcrumb"></div>
+                <div id="title"><img src="images/icon.webp">&nbsp;Histoire de la SSJB en vidéo</div>
+            </div>
+            <article>
+                <div id="listing">
+                    <div class="list-grid">
+                        <!-- LIST HEADER EOF -->
+
+                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(01-les-deux-fondations/../images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="01-les-deux-fondations/">1. Les deux fondations</a></span>
+                                <span class="list-grid__item__abstract">Les deux fondations de la Société Saint-Jean-Baptiste 1834-1843</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(02-preserver-l-unite/../images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="02-preserver-l-unite/">2. Préserver l’unité</a></span>
+                                <span class="list-grid__item__abstract">Préserver l’unité de la nation: 1843-1867</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(03-federer-la-diaspora/../images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="03-federer-la-diaspora/">3. Fédérer la diaspora</a></span>
+                                <span class="list-grid__item__abstract">Fédérer la diaspora canadienne-française: 1867-1885</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(04-l-emancipation-economique/../images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="04-l-emancipation-economique/">4. L’émancipation économique</a></span>
+                                <span class="list-grid__item__abstract">L’émancipation économique des Canadiens français 1885-1914</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(05-l-emancipation-des-femmes/../images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="05-l-emancipation-des-femmes/">5. L’émancipation des femmes</a></span>
+                                <span class="list-grid__item__abstract">La SSJB-M et l’émancipation des femmes: 1903-1933</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(06-institutions-financieres/../images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="06-institutions-financieres/">6. Institutions financières</a></span>
+                                <span class="list-grid__item__abstract">La création d’institutions financières</span>
+                            </div>
+                        </div>                        <div class="list-grid__item">
+                            <div class="list-grid__item__icon" style="background-image: url(07-l-oeuvre-editoriale/../images/icon.webp);"></div>
+                            <div class="list-grid__item__description">
+                                <span class="list-grid__item__title"><a href="07-l-oeuvre-editoriale/">7. L’oeuvre éditoriale</a></span>
+                                <span class="list-grid__item__abstract">L’oeuvre éditoriale de la SSJB-M: 1918-1929</span>
+                            </div>
+                        </div>
+
+
+                        <!-- LIST FOOTER SOF -->
+                    </div>
+                </div>
+            </article>        <!-- MAIN FOOTER SOF -->
+        </main>
+        <footer>
+            <div id="copyright">2024 Société Saint-Jean Baptiste de Montréal<br>Maison Ludger-Duvernay, 82, rue Sherbrooke Ouest, Montréal</div>
+        </footer>
+        <script>app.mount('body');</script>
+    </body>
+</html>
