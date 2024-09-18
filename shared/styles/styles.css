@@ -3114,6 +3114,7 @@ footer #copyright {
   width: 100%;
   display: grid;
   grid-template-columns: 100%;
+  grid-gap: 6px;
 }
 @media (min-width: 576px) {
   #listing .list-grid {

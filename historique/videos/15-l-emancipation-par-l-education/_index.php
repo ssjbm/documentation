@@ -3,7 +3,7 @@
  * @type     article
  * @title    15. L’émancipation par l’éducation
  * @icon     ../images/icon.webp
- * @abstract L’émancipation par l’éducation: la fondation du prêt d’honneur: 1947-1971
+ * @abstract La fondation du prêt d’honneur: 1947-1971
  */
 ?>
 
